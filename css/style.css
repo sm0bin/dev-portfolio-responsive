@@ -315,6 +315,10 @@ footer p {
         object-fit: cover;
     }
 
+    .logo {
+        margin-bottom: 32px;
+    }
+
     .nav-bar {
         padding: 20px 20px;
     }
@@ -323,7 +327,16 @@ footer p {
         padding: 20px 20px 0;
     }
 
-    .hero-box img {
+    .hero-content {
+        padding: 48px 0;
+    }
+
+    .btn-1 {
+        margin-bottom: 20px;
+    }
+
+    .hero-box img,
+    .summery-part {
         width: 100%;
     }
 
@@ -342,15 +355,11 @@ footer p {
     }
 
     .what-i-do-text p {
-        padding: 0 20px 50px;
+        padding: 0 0 48px;
     }
 
     .summery-details {
         gap: 0;
-    }
-
-    .summery-part {
-        width: 100%;
     }
 
     .sec-h1 {
