@@ -306,9 +306,6 @@ footer p {
 
     }
 
-    footer {
-        padding: 20px;
-    }
 
     header {
         background-image: none;
@@ -320,7 +317,7 @@ footer p {
     }
 
     .nav-bar {
-        padding: 20px 20px;
+        padding: 20px;
     }
 
     .hero-box {
@@ -342,7 +339,7 @@ footer p {
 
     .about {
         margin: 130px 0;
-        padding: 32px;
+        padding: 20px;
     }
 
     .about-text p,
@@ -366,8 +363,84 @@ footer p {
         margin-bottom: 32px;
     }
 
+    footer {
+        padding: 20px;
+    }
+
     .footer-box,
     .hero-box {
         width: 100%;
     }
+}
+
+@media screen and (min-width: 640px) and (max-width: 1280px) {
+    main {
+        margin: 20px;
+    }
+
+
+    .hero-box,
+    .nav-bar,
+    .about-info,
+    .cards,
+    .summery-details,
+    footer {
+        flex-direction: column;
+
+    }
+
+    header {
+        background-position: right bottom, 10px 10px;
+    }
+
+    .nav-bar {
+        padding: 20px;
+    }
+
+    .hero-box {
+        padding: 20px 120px 0;
+    }
+
+    .hero-content {
+        padding: 48px 0;
+    }
+
+    .hero-box img,
+    .summery-part {
+        width: 100%;
+    }
+
+    .about-text p,
+    .what-i-do-text p {
+        text-align: justify;
+    }
+
+    .about {
+        margin: 130px 0;
+        padding: 20px;
+    }
+
+    .about-info-part {
+        margin-bottom: 20px;
+    }
+
+
+    .what-i-do-text p {
+        padding: 0 0 48px;
+    }
+
+
+    .logo {
+        margin-bottom: 32px;
+    }
+
+    footer {
+        padding: 20px;
+    }
+
+    .footer-box {
+        width: 100%;
+    }
+
+
 }
